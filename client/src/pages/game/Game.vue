@@ -1,5 +1,5 @@
 <template>
-    <div>kkk</div>
+    <div id="mm">kkk</div>
 </template>
 
 <script>
@@ -12,6 +12,7 @@ export default {
     }
   },
   mounted () {
+    $('#mm').html('are you')
   },
   methods: {
     aFun () {

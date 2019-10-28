@@ -1,8 +1,5 @@
-'use strict'
-import jquery from 'jquery';
+'use strict';
 (function (window) {
-  window.$ = window.jquery = jquery
-  const $ = jquery
   const comFn = {
     ajax: function (params, method = 'post') {
       $.ajax()
