@@ -1,5 +1,6 @@
 <template>
-    <div id="mm">kkk</div>
+    <div class="game">
+    </div>
 </template>
 
 <script>
@@ -12,7 +13,7 @@ export default {
     }
   },
   mounted () {
-    $('#mm').html('are you')
+    $('.game').html('here is game')
   },
   methods: {
     aFun () {
@@ -25,3 +26,10 @@ export default {
 }
 
 </script>
+
+<style lang="less" scoped>
+@import '../../assets/less/color.less';
+.game {
+  color: @cMain
+}
+</style>
